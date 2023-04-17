@@ -19,3 +19,4 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           source: "./*"
           target: "~/../../var/www/lauraemil.site/public_html/members"
+          command_opts: "-o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -t -S none -l {{username}} sudo sh -c"
