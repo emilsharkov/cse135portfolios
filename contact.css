@@ -1,0 +1,63 @@
+@import url("style.css");
+
+body {
+    /* background-color: var(--bg-color); */
+    color: var(--primary-color);
+}
+
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.contact-item {
+    width: 50%;
+    margin: min(2vw, 28px);
+    padding: min(5vw, 70px) min(2vw, 28px);
+}
+
+.contact {
+    background-color: var(--secondary-color);
+    border-radius: min(1vw, 14px);
+}
+
+.contact-item a {
+    color: white;
+}
+
+
+.contact-item a:visited {
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .contact-container {
+        flex-direction: column;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .contact-item {
+        width: auto;
+        border-radius: 5vw;
+        padding: 5vw;
+
+    }
+
+    .contactform {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    fieldset {
+        min-width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+}
