@@ -1,7 +1,7 @@
 const workTemplate = document.createElement('template')
 
 workTemplate.innerHTML = `
-    <style> @import "styles.css" </style>
+    <style> @import "emil/styles.css" </style>
     <div class="work-container">
         <h3 class="work-title"></h3>
         <i class="work-duration"></i>

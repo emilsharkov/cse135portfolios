@@ -1,6 +1,6 @@
 const projectTemplate = document.createElement('template')
 projectTemplate.innerHTML = `
-    <style>@import 'styles.css'</style>
+    <style>@import 'emil/styles.css'</style>
     <a class="project-item-link" target="_blank">
         <div class="project-item">
             <img class="project-item-image" width="500"/>

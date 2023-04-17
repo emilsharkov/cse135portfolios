@@ -1,7 +1,7 @@
 const skillTemplate = document.createElement('template')
 
 skillTemplate.innerHTML = `
-    <style> @import "styles.css" </style>
+    <style> @import "emil/styles.css" </style>
     <div class="skills-item">
         <img width="80" height="80" />
         <label class="skill-label"></label>
